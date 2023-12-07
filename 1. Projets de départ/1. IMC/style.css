@@ -1,0 +1,48 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(24, 149, 172);
+}
+.container{
+    background-color: rgb(216, 215, 215);
+    width: 70%;
+    height: 70vh;
+    margin: 150px auto;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+}
+.input_container{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.input_group{
+    padding: 15px;
+}
+input{
+    padding: 10px;
+    width: 100%;
+}
+
+button{
+    display: block;
+    margin: auto;
+    padding: 10px 40px;
+    background-color: goldenrod;
+    border: none;
+    font-weight: bold;
+}
+.resultat{
+    text-align: center;
+    padding: 30px;
+}
+.valeur_imc{
+font-size: 34px;
+}
+.result{
+    color: rgb(77, 76, 76);
+}

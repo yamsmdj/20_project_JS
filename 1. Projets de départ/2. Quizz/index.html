@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1><span>Quizz</span> Culture général</h1>
+
+    <div class="global-container">
+
+      <form class="quiz">
+        <div class="question">
+
+
+          <h4>Qui est sacré empereur de France le 2 dec 1804 ?</h4>
+          <div>
+            <input type="radio" id="clovis" name="q1"
+            value="a" checked >
+            <label for="clovis">Clovis</label>
+          </div>
+          <div>
+            <input type="radio" id="Abraham" name="q1"
+            value="a" >
+            <label for="Abraham">Abraham Lincoln</label>
+          </div>
+          <div>
+            <input type="radio" id="Napo" name="q1"
+            value="a"  >
+            <label for="Napo">Napoleon Bonapart</label>
+          </div> <br>
+
+          <h4> Quand la déclaration d'indépendance des Etats-Unis a-t-elle été votée ? </h4>
+          <div>
+            <input type="radio" id="juillet" value=a name="q2" checked>
+            <label for="juillet">4 Juillet 1776</label>
+          </div>
+          <div>
+            <input type="radio" id="avril" value=b name="q2">
+            <label for="avril">18 avril 1856</label>
+          </div>
+          <div>
+            <input type="radio" id="juin" value=c name="q2">
+            <label for="juillet">30 juin 1925</label>
+          </div><br>
+
+          <h4>Quand a eu lieu la chute de l'empire romain d'occident ?</h4>
+          <div>
+            <input type="radio" id="15" name="q3" value="a"checked>
+            <label for= 15>15 ap J-C</label>
+          </div>
+          <div>
+            <input type="radio" id="476" name="q3" value="b">
+            <label for= 476>476 ap J-C</label>
+          </div>
+          <div>
+            <input type="radio" id="740" name="q3" value="c">
+            <label for= 740>-740 av J-C</label>
+          </div><br>
+
+          <h4>Quelle est la capitale de la Slovenie ?</h4>
+          <div>
+            <input type="radio" name="q4" id="lju" value="a">
+            <label for="lju">Ljubjana</label>
+          </div>
+          <div>
+            <input type="radio" name="q4" id="Bel" value="b"checked>
+            <label for="Bel">Belgrade</label>
+          </div>
+          <div>
+            <input type="radio" name="q4" id="Bra" value="c">
+            <label for="Bra">Bratislava</label>
+          </div><br>
+
+          <h4>Combien d'habitatns compte l'ilande en 2020 ? </h4>
+          <div>
+            <input type="radio" name="q5" id="1365" value="a"> 
+            <label for="1365">1.365 Millions</label>
+          </div>
+          <div>
+            <input type="radio" name="q5" id="21" value="b"checked> 
+            <label for="21">2.1 Millions</label>
+          </div>
+          <div>
+            <input type="radio" name="q5" id="49" value="c"> 
+            <label for="49">4,9 Millions</label>
+          </div>
+
+        </div>
+        <button type="submit">Validez</button>
+      </form>
+      <div class="result">
+        <h2>Cliquez sur <span>Valider</span> pour voir les <span>resultats</span></h2> 
+        <p class="mark"></p>
+        <p class="help"></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
