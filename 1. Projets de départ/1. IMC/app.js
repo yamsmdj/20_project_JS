@@ -42,11 +42,10 @@ result.textContent = "Remplissez correctement les inputs.";
 }
 
 function showResult(imc) {
-  const rank = bmidate.find(data => {
-    if (imc >= data.range[0] && IMC < data.range[1])return data {
-      
-    }
-  })
+  const rank = BMIData.find(data => {
+    if (imc >= data.range[0] && imc < data.range[1])return data 
+      // else if (typeof data.range === 'number' && imc >= data.range) return data
+    })
   valeurimc.textContent = imc
   valeurimc.style.color = `${rank.color}`
   result.textContent = `Resultat : ${rank.name}`
